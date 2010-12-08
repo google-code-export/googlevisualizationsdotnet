@@ -26,6 +26,12 @@
 <cc1:GVMap ID="GVMap2" runat="server" GVIShowTip="True" Height="300px" Width="600px" GVILineColor="Goldenrod" GVILineWidth="4"/>
 }}}
 === Code ===
+{{{
+this.GVMap2.ChartData("Duvall, WA", "Home Sweet Home");
+this.GVMap2.ChartData("Bothell, WA", "Work");
+}}}
+
+
 
 == Annotated Timeline Example ==
 === Markup ===
@@ -60,7 +66,25 @@ List<GoogleChartsNGraphsControls.TimelineEvent> evts = new List<GoogleChartsNGra
 
             this.GVAnnotatedTimeline1.ChartData(evts.ToArray());
 }}}
+
+
+
+== Pie Chart Example ==
+=== Markup ===
 {{{
-this.GVMap2.ChartData("Duvall, WA", "Home Sweet Home");
-this.GVMap2.ChartData("Bothell, WA", "Work");
+<h3>PieChart Example</h3>
+        <cc1:GVPieChart ID="GVPieChart1" runat="server" Width="600" Height="400" />
+}}}
+=== Code ===
+{{{
+System.Data.DataTable dt = new System.Data.DataTable("Work Day");
+            dt.Columns.Add("Activity");
+            dt.Columns.Add("Daily Percentage", typeof(int));
+            dt.Rows.Add(new object[] {"Engineering",5});
+            dt.Rows.Add(new object[] { "Programming", 3 });
+            dt.Rows.Add(new object[] { "Sleeping", 1 });
+            dt.Rows.Add(new object[] { "Lunch", 1 });
+            dt.Rows.Add(new object[] { "Meetings", 1 });
+
+            this.GVPieChart1.ChartData(dt);
 }}}
