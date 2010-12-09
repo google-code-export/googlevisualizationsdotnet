@@ -37,7 +37,7 @@ this.GVMap2.ChartData("Bothell, WA", "Work");
 
 
 
-== GeoMap Example (out of the box) ==
+== GeoMap Example: out of the box ==
 === Markup ===
 {{{
          <h3>GeoMap Example - Working Out of the Box, no dataset</h3>
@@ -49,7 +49,7 @@ this.GVMap2.ChartData("Bothell, WA", "Work");
 
 
 
-== GeoMap Example - using regions with markers ==
+== GeoMap Example: using regions with markers ==
 === Markup ===
 {{{
 <cc1:GVGeoMap ID="GVGeoMap2" runat="server" />
