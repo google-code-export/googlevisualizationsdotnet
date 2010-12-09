@@ -9,7 +9,7 @@
 }}}
 
 = Examples =
- (See Google Visualizations for Options and Documentation)
+ (See [http://code.google.com/apis/visualization/documentation/gallery.html Google Visualizations for Options and Documentation])
 
 == Map Example ==
 === Markup ===
