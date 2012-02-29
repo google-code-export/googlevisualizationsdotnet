@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Markup asp.net for the examples page
 #labels Featured,Phase-Implementation
 
 = Markup for Default.aspx =
