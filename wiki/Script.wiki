@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary javascript for formatters and google event handling
 #labels Featured,Phase-Implementation
 
 = Javascript for Default.aspx =
